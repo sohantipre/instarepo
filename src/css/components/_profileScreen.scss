@@ -1,0 +1,44 @@
+.image {
+  border-radius: 50%;
+  width: 13%;
+  margin: 90px 10rem;
+  margin-left: -9rem;
+}
+.profile_details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile_info {
+  margin-left: 0;
+}
+.profile_username,
+.edit_profile_btn,
+.settings_btn,
+.profile_posts,
+.profile_followers,
+.profile_following {
+  margin-right: 20px;
+  margin-bottom: 15px;
+  font-weight: lighter;
+}
+.profile_name,
+.profile_bio {
+  margin-left: 50px;
+  margin-bottom: 18px;
+}
+.profile_name {
+  font-weight: bold;
+}
+.profile_highlights,
+.profile_all_posts {
+  margin-left: 13rem;
+  margin-bottom: 5rem;
+}
+.profile_info_first_line,
+.profile_info_second_line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
