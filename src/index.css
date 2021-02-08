@@ -1,13 +1,68 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.formcontainer {
+  border: 1px solid gray;
+  margin: 100px 180px;
+  background-color: white;
+}
+.form {
+  padding: 50px;
+}
+.textinput {
+  size: "90px";
+}
+
+.mobile {
+  align-self: center;
+  background-image: url(https://www.instagram.com/static/images/homepage/home-phones.png/43cc71bb1b43.png);
+  background-position: 0 0;
+  background-size: 454px 618px;
+  -webkit-flex-basis: 454px;
+  -ms-flex-preferred-size: 454px;
+  flex-basis: 454px;
+  height: 600px;
+  width: 500px;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: -15px;
+  position: fixed;
+}
+
+@media only screen and (max-width: 992px) {
+  .mobile {
+    display: none;
+    background-image: none;
+  }
+  .formcontainer {
+    border: 1px solid gray;
+    width: 400px;
+    background-color: white;
+    margin-left: 50px;
+  }
+}
+/* .mobile {
+  align-self: center;
+  background-image: url(https://www.instagram.com/static/images/homepage/home-phones.png/43cc71bb1b43.png);
+  background-position: 0 0;
+  background-size: 454px 618px;
+  -webkit-flex-basis: 454px;
+  -ms-flex-preferred-size: 454px;
+  flex-basis: 454px;
+  height: 600px;
+  width: 500px;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: -15px;
+} */
